@@ -16,7 +16,7 @@ This project is designed to replicate a basic Social Networking API using Mongoo
 
 * [Usage](#usage)
 
-
+- [Screenshots/Video](<#video-showcase>)
 
 * [License](#license)
 
@@ -74,6 +74,9 @@ Once started, then you can navigate to your API client of choice and you can tes
 ## GitHub repository
 
 You can find the GitHub repository [here.](https://github.com/JakebJackson/MongooseSNAPI)
+
+## Video Showcase
+![Vide Showcase](https://drive.google.com/file/d/1csz1Y9IvPNwdjGH5jUQwGoA4RbBkXaRo/view?usp=sharing)
 
 ## Licence
 
