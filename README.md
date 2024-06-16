@@ -76,7 +76,7 @@ Once started, then you can navigate to your API client of choice and you can tes
 You can find the GitHub repository [here.](https://github.com/JakebJackson/MongooseSNAPI)
 
 ## Video Showcase
-![Vide Showcase](https://drive.google.com/file/d/1csz1Y9IvPNwdjGH5jUQwGoA4RbBkXaRo/view?usp=sharing)
+[Video Showcase](https://drive.google.com/file/d/1csz1Y9IvPNwdjGH5jUQwGoA4RbBkXaRo/view?usp=sharing)
 
 ## Licence
 
