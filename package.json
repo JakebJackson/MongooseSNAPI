@@ -1,4 +1,15 @@
 {
+  "name": "mongoosesnapi",
+  "version": "1.0.0",
+  "description": "This project is designed to replicate a basic Social Networking API using Mongoose/MongoDB as the database.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon"
+  },
+  "keywords": ["Social Networking", "API", "Mongoose", "MongoDB"],
+  "author": "Jakeb Jackson",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.19.2",
     "mongoose": "^8.4.1",
