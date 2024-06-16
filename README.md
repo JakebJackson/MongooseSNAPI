@@ -1,5 +1,5 @@
 # MongooseSNAPI
-![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Decription
 This project is designed to replicate a basic Social Networking API using Mongoose/MongoDB as the database.
