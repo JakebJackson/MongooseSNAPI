@@ -7,12 +7,19 @@
     "start": "node server.js",
     "watch": "nodemon"
   },
-  "keywords": ["Social Networking", "API", "Mongoose", "MongoDB"],
+  "keywords": [
+    "Social Networking",
+    "API",
+    "Mongoose",
+    "MongoDB"
+  ],
   "author": "Jakeb Jackson",
   "license": "MIT",
   "dependencies": {
     "express": "^4.19.2",
-    "mongoose": "^8.4.1",
+    "mongoose": "^8.4.1"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.3"
   }
 }

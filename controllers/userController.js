@@ -65,7 +65,7 @@ const userController = {
       res.status(500).json(err);
     }
   },
-  // delete user (BONUS: and delete associated thoughts)
+  // delete user and associated thoughts
   async deleteUser(req, res) {
     try {
       const dbUserData = await User.findOneAndDelete({ _id: req.params.userId })
@@ -83,7 +83,7 @@ const userController = {
     }
   },
 
-  // add friend to friend list
+  // add a friend to users friends list
   async addFriend(req, res) {
     try {
       const dbUserData = await User.findOneAndUpdate({ _id: req.params.userId }, { $addToSet: { friends: req.params.friendId } }, { new: true });
@@ -98,7 +98,7 @@ const userController = {
       res.status(500).json(err);
     }
   },
-  // remove friend from friend list
+  // remove a friend from a users friendslist
   async removeFriend(req, res) {
     try {
       const dbUserData = await User.findOneAndUpdate({ _id: req.params.userId }, { $pull: { friends: req.params.friendId } }, { new: true });
